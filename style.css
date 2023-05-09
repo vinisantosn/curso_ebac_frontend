@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Roboto', sans-serif;    
+}
+
+header h1 {    
+    font-family: 'Oswald', sans-serif;
+}
+
+.container, header, footer {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #6c2e6a;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #945391;
+}
+
+.mensagem-de-sucesso {
+    background-color: #27ae60;
+    padding: 16px;
+    margin-bottom: 8px;
+    color: #fff;
+    display:none;
+}
+.mensagem-de-erro{
+    padding: 16px;
+    background-color: red;
+    color:#fff;    
+    margin-bottom: 8px;
+    display: none;
+
+}

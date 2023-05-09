@@ -1,210 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
-    
+    <title>Formulário HTML-JS </title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Meu portal de notícias</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#economy" title="Ir para a seção de economia">Economia</a>
-                    </li>
-                    <li>
-                        <a href="#entertainment" title="Ir para a seção de entreterimento">Entreterimento</a>
-                    </li>
-                    <li>
-                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                    </li>             
-                    <li>
-                        <a href="#technology" title="Ir para a seção de tecnologia">Tecnologia</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Formulário: Integrando HTML com JavaScript</h1>
     </header>
-    <section id="sports">
-        <div class="container">
-            <h2>Esportes</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-                    <header>
-                        <time class="creation-date">13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Grande clássico na noite de hoje</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Noite do Superbowl</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Notícia sobre a NBA</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Notícia sobre a NBA</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="economy">
-        <div class="container">
-            <h2>Economia</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Dólar em alta de 0.50%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Euro em queda de 0.40%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                    </header>
-                    <h3>Alta no preço do barril do petróleo</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <!-- section: entertainment -->
-
-    <section id="entertainment">
-        <div class="container">
-            <h2>Entreterimento</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/games.jpg" alt="Controle de video game sobre a mesa ao fundo cores rgba." />
-                    <header>
-                        <time>04/05/2023 às 11:31</time>
-                    </header>
-                    <h3>Jogos de computador crescem dentre os jovens.</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/programa-na-tv.jpg" alt="homem escolhendo um programa de tv para assistir" />
-                    <header>
-                        <time>04/05/2023 às 11:33</time>
-                    </header>
-                    <h3>Programas de TV</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/radio.jpg" alt="Central de radio" />
-                    <header>
-                        <time>04/05/2023 às 11:35</time>
-                    </header>
-                    <h3>Radio como instrumento de entreterimento</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <!-- section: technology -->
-
-    <section id="technology">
-        <div class="container">
-            <h2>Tecnologia</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/diminuicao-transistores.jpg" alt="Imagem de uma placa com componentes eletrônicos." />
-                    <header>
-                        <time>04/05/2023 às 11:50</time>
-                    </header>
-                    <h3>Diminuição nos transistores e aumento da velocidade de processos.</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/reuniao-remota.jpg" alt="Mulheres realizando atividades fisicas atraves de reuniao remota" />
-                    <header>
-                        <time>04/05/2023 às 11:51</time>
-                    </header>
-                    <h3>Reunião remota e Saúde.</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/mercado-de-ti-para-mulheres.jpg" alt="mulher digitando" />
-                    <header>
-                        <time>04/05/2023 às 11:52</time>
-                    </header>
-                    <h3>Avanço: Número de mulheres crescem no mercado de TI</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-
+    <div class="container">
+        <form id="form">
+            <!-- MENSAGENS -->
+            <p class="mensagem-de-sucesso"></p>
+            <p class="mensagem-de-erro"></p>
+            <!-- Campo A -->
+            <input type="number" id="campo-a" required placeholder="Insira o valor do campo A" />
+            <!-- Campo B -->
+            <input type="number" id="campo-b" required placeholder="Insira o valor do campo B" />
+            <!-- BUTTON -->
+            <button type="submit" id="btn-enviar"> Enviar</button>
+            <p>Para que uma nova validação ocorra sem a interferência da mensagem a página devererá ser recarregada.</p>
+        </form>
+    </div>
+    <footer>&copy Vinicius Santos - Todos os direitos reservados.</footer>
+    <script src="./main.js"></script>
 </body>
 </html>
