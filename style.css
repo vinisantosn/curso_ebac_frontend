@@ -1,57 +1,70 @@
-* {
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-    font-family: 'Roboto', sans-serif;    
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-header h1 {    
-    font-family: 'Oswald', sans-serif;
+body{
+    background-color:#dfdfdf;
+    padding-top: 100px;
 }
 
-.container, header, footer {
-    margin: 80px auto;
-    max-width: 640px;
-    width: 100%;
+.container{
+    max-width: 960px;
+    width:100%;
+    margin: 0 auto;
 }
 
-form {
-    margin-top: 40px;
+header{
+    display: flex;
+    align-itens:center;
+    margin-bottom: 48px;
+    justify-content: center;
 }
 
-input, button {
-    display: block;
+header img{
+    height:48px;
+    margin-right:16px;
+}
+
+form{
+    margin-bottom: 48px;
+}
+
+form input{
+    background-color: #fff;
+    border: none;    
     padding: 8px;
-    margin-bottom: 8px;
-    width: 100%;
-    resize: none;
+    font-size: 16px;
 }
 
-button {
-    background-color: #6c2e6a;
-    border: none;
-    text-transform: uppercase;
+form button{
+    background-color: #5b9d4c;
     color: #fff;
-    font-size: 18px;
+    border: none;   
+    font-size: 16px;
+    padding: 8px;
     cursor: pointer;
+    border-radius:2px;
 }
 
-button:hover {
-    background-color: #945391;
+button:hover{
+    background-color: #83be71;
 }
 
-.mensagem-de-sucesso {
-    background-color: #27ae60;
-    padding: 16px;
+ul{
+    list-style:none;
+    margin-bottom: 100px;
+    
+}
+ul li{
+    /* text-decoration: line-through; */
+    border-bottom: 1px solid rgba(0,0,0,0.4);
     margin-bottom: 8px;
-    color: #fff;
-    display:none;
 }
-.mensagem-de-erro{
-    padding: 16px;
-    background-color: red;
-    color:#fff;    
-    margin-bottom: 8px;
-    display: none;
 
+.tarefa-realizada{
+    text-decoration: line-through;
 }
+
