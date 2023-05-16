@@ -1,37 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário HTML-JS </title>
+    <title>Formulário de Cadastro</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- FONTES -->
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Formulário: Integrando HTML com JavaScript</h1>
-    </header>
     <div class="container">
-        <form id="form">
-            <!-- MENSAGENS -->
-            <p class="mensagem-de-sucesso off"></p>
-            <p class="mensagem-de-erro off"></p>
-            <!-- Campo A -->
-            <input type="number" id="campo-a" required placeholder="Insira o valor do campo A" />
-            <!-- Campo B -->
-            <input type="number" id="campo-b" required placeholder="Insira o valor do campo B" />
-            <!-- BUTTON -->
-            <button type="submit" id="btn-enviar"> Enviar</button>
-            <p><strong>Funcionamento de validação em tempo real:</strong> o formulário será válido caso o número do campo B seja maior que o número do campo A.</p>
-            
-        </form>
+        <header>
+            <img src="imagens/register.png" alt="Logo que remete a um cadastro.">
+            <h1>Formulário de Cadastro</h1>
+        </header>
+        <hr class="gradiente">
+        <section id="form">
+            <form id="form-cadastro">
+                <div class="form-campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome"/>
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone"/>
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf"/>
+                </div>
+                <div class="form-campo">
+                    <label for="endereco">Endereço completo:</label>
+                    <input type="text" id="endereco" name="endereco"/>
+                </div>
+                <div class="form-campo">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep"/>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <p>2023 &copy; - Desenvolvido por Vinícius Santos.</p>
+        </footer>
     </div>
-    <footer>&copy Vinicius Santos - Todos os direitos reservados.</footer>
-    <script src="./main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="arquivos-js/jquery.mask.min.js"></script>
+    <script src="arquivos-js/jquery.validate.min.js"></script>
+    <script src="arquivos-js/messages_pt_BR.min.js"></script>
+    <script src="arquivos-js/main.js"></script>
+
+    
+    
+
 </body>
 </html>
